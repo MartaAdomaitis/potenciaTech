@@ -39,6 +39,8 @@ let itemNecessario2 = "espada"
 
 let itemNecessario3 = "sapato"
 
+// primeira forma de solucionar
+
 function procura2(a){
     let resultado;
     if(a.includes(itemNecessario1)&& a.includes(itemNecessario2) && a.includes(itemNecessario3)){
@@ -50,3 +52,24 @@ function procura2(a){
 }
 console.log(procura2(itensColetados))
 return procura2(itensColetados)
+
+// segunda forma de solucionar
+
+
+// function solucao(itensColetados, itemNecessario1, itemNecessario2, itemNecessario3) {
+// let resultado = 0;
+
+//       for (let item of itensColetados){  
+//       if(item === itemNecessario1 || item === itemNecessario2 || item === itemNecessario3){
+//         resultado++;
+//       }
+//      }
+
+//       if(resultado < 1){
+//         return ("NÃO PODE ENFRENTAR")
+//       }else{
+//         return ("PODE ENFRENTAR")}
+//       }
+
+// return solucao(itensColetados)
+
