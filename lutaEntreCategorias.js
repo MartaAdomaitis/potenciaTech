@@ -32,7 +32,7 @@
 // solução
 
 const peso1 = 55
-const peso2 = 54
+const peso2 = 56
 
 function solucao(peso1, peso2){
   categoriaLutador1 = categoria(peso1);
@@ -49,13 +49,13 @@ function solucao(peso1, peso2){
         if (peso < 55){
         return "pesoLeve";
         }
-        else if (peso < 65){
+        if (peso < 65){
         return "pesoMeioMedio";
         }
-        else if (peso < 75){
+        if (peso < 75){
         return "pesoMedio";
         }
-        else if (peso < 85){
+        if (peso < 85){
         return "pesoMeioPesado";
         }
         else{
